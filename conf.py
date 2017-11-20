@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# AppIntegraionDoc documentation build configuration file, created by
-# sphinx-quickstart on Mon Nov 20 18:41:28 2017.
+# ScottTest documentation build configuration file, created by
+# sphinx-quickstart on Mon Oct 30 22:32:08 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -19,6 +19,8 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+
+import sphinx_rtd_theme
 
 
 # -- General configuration ------------------------------------------------
@@ -45,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'AppIntegraionDoc'
+project = u'ScottTest'
 copyright = u'2017, Scott'
 author = u'Scott'
 
@@ -82,7 +84,8 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -111,7 +114,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'AppIntegraionDocdoc'
+htmlhelp_basename = 'ScottTestdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -138,7 +141,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'AppIntegraionDoc.tex', u'AppIntegraionDoc Documentation',
+    (master_doc, 'ScottTest.tex', u'ScottTest Documentation',
      u'Scott', 'manual'),
 ]
 
@@ -148,7 +151,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'appintegraiondoc', u'AppIntegraionDoc Documentation',
+    (master_doc, 'scotttest', u'ScottTest Documentation',
      [author], 1)
 ]
 
@@ -159,8 +162,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'AppIntegraionDoc', u'AppIntegraionDoc Documentation',
-     author, 'AppIntegraionDoc', 'One line description of project.',
+    (master_doc, 'ScottTest', u'ScottTest Documentation',
+     author, 'ScottTest', 'One line description of project.',
      'Miscellaneous'),
 ]
 
