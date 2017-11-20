@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'ScottTest'
+project = u'Adxing媒体对接'
 copyright = u'2017, Scott'
 author = u'Scott'
 
