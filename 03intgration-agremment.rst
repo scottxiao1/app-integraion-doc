@@ -354,7 +354,7 @@ Content-Type 和Accept 为 application/x-protobuf 或 application/json*
 
 
 
-**creative_elements 对象**
+**creative_elements对象**
 
 +---------------+----------------+-------+-------------------------------------------------------+
 | 参数名称      | 类型           | 必须  | 说明                                                  |
