@@ -340,7 +340,7 @@ Content-Type 和Accept 为 application/x-protobuf 或 application/json*
 |               |                |       | 地址为click_tracking_url                              |
 |               |                |       |                                                       |
 +---------------+----------------+-------+-------------------------------------------------------+
-| click         | string         | 否    | 异步点击监测地址，最多同时支持3条			|
+| click         | array          | 否    | 异步点击监测地址，最多同时支持3条			|
 | _tracking_urls|                |       |                                                       |
 |               |                |       | 注：仅存在异步上报地址时，媒体客户端需要在点击响应    |
 |               |                |       |    site_url或click_tracking_url跳转的同时	           |
