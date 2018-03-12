@@ -5,7 +5,7 @@
 -----------------------------------------
 
 
-.. code-block:: python
+.. code-block:: json
     :linenos:
 
     {
@@ -62,7 +62,7 @@
 广告返回json示例
 -----------------------------------------
 
-.. code-block:: python
+.. code-block:: json
     :linenos:
 
 
