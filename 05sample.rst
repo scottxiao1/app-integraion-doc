@@ -9,26 +9,26 @@
     :linenos:
 
     {
-        "id":"任意填写，建议时间戳",
+        "id":"m83390492620425",
         "app":{
-            "id":"媒体ID",
+            "id":"2",
             "publisher":{
-                "id":"开发者ID"
+                "id":"1"
             }
         },
         "device":{
-            "devicetype":"1",
+            "devicetype":1,
             "make":"apple",
             "model":"iphone",
-            "hwv":"7",
+            "hwv":"2",
             "os":"1",
             "osv":"11.0.1",
             "size":"640x960",
-            "pixel_ratio":"1",
-            "screen_density":"1",
-            "screen_orientation":"1",
+            "pixel_ratio":1,
+            "screen_density":1.0,
+            "screen_orientation":1,
             "ua":"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5",
-            "ip":"xxx.xxx.xxx.xxx",
+            "ip":"1.1.1.1",
             "ifa":"ifa",
             "ifa_md5":"ifa_md5",
             "android_id":"android_id",
@@ -41,8 +41,8 @@
             "duid_md5":"duid_md5"
         },
         "network":{
-            "type":"1",
-            "operator":"1",
+            "type":1,
+            "operator":1,
             "cellular_id":"1",
             "wifis":[
                 {
@@ -53,8 +53,8 @@
         },
         "adpos":[
             {
-                "pos_id":"广告位ID",
-                "capacity":"1"
+                "pos_id":"2",
+                "capacity":1
             }
         ]
     }
